@@ -1,0 +1,12 @@
+[project]
+name = "pgseed"
+version = "0.1.0"
+dependencies = [
+    "psycopg2-binary",
+    "faker",
+    "PyYAML",
+    "rich",
+]
+
+[project.scripts]
+pgseed = "pgseed.cli:main"
